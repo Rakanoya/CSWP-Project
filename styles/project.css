@@ -173,7 +173,8 @@ main {
     font-weight: bold;
 }
 
-.control-group select {
+.control-group select,
+.control-group input[type="text"] {
     padding: 5px 8px;
     border: 1px solid var(--border-color);
     border-radius: 3px;
